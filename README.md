@@ -20,8 +20,8 @@ It is faster than bubble sort because it uses recursion and the divide and conqu
 
 ##### Conquer (part of divide and conquer)
 ![Conquer](conquer.png)
-4. Now that the values are in pairs, the sort method compares the two values in each pair to each other. The lower number goes on the left and the higher on the right
-5. The sort method recursively calls itself. This causes two pairs of two to compare their values to each other
-6. Once those four values are sorted, they compare themselves to the other group of four
-7. This continues until the whole array is sorted
+1. Now that the values are in pairs, the sort method compares the two values in each pair to each other. The lower number goes on the left and the higher on the right
+2. The sort method recursively calls itself. This causes two pairs of two to compare their values to each other
+3. Once those four values are sorted, they compare themselves to the other group of four
+4. This continues until the whole array is sorted
 
